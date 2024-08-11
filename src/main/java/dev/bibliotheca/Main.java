@@ -1,4 +1,4 @@
-package dev.worldsbestteam;
+package dev.bibliotheca;
 
 public class Main {
     public static void main(String[] args) {
