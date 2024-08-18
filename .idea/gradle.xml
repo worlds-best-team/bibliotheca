@@ -5,10 +5,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+=======
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/tokeniser" />
+>>>>>>> 3aca687373ab884179bf81a09ce26b63214ac1fd
           </set>
         </option>
       </GradleProjectSettings>
