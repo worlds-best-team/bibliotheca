@@ -13,7 +13,7 @@ public abstract class InputFilter {
         this.input = input;
         isFiltered = false;
         try {
-            filteredInput = filter(input);
+            filteredInput = filter();
             isFiltered = true;
         } catch (Exception e) {
             isError = true;
@@ -21,5 +21,5 @@ public abstract class InputFilter {
         }
     }
 
-    public abstract String filter(String input);
+    public abstract String filter();
 }
