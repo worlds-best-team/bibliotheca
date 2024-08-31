@@ -11,13 +11,16 @@ public abstract class InputFilter {
             throw new IllegalArgumentException("Received input with zero length");
 
         this.input = input;
-        isFiltered = false;
+        this.isFiltered = false;
+    }
+
+    public void process() {
         try {
-            filteredInput = filter();
-            isFiltered = true;
+            this.filteredInput = filter();
+            this.isFiltered = true;
         } catch (Exception e) {
             isError = true;
-            System.err.println(e);
+            System.err.println("Filtering error: " + e.getMessage());
         }
     }
 
