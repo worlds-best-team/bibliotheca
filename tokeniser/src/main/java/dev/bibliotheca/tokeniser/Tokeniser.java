@@ -3,6 +3,7 @@ package dev.bibliotheca.tokeniser;
 import java.util.Scanner;
 
 import dev.bibliotheca.tokeniser.filters.InputFilter;
+import dev.bibliotheca.tokeniser.filters.punctuation.CommaFilter;
 import dev.bibliotheca.tokeniser.filters.punctuation.PeriodFilter;
 
 public class Tokeniser {
@@ -12,7 +13,10 @@ public class Tokeniser {
         String userInput = sc.nextLine();
 
         InputFilter periodFilter = new PeriodFilter(userInput);
-        System.out.println(periodFilter.filteredInput);
+        System.out.println("[periodFilter] " + periodFilter.filteredInput);
+
+        InputFilter commaFilter = new CommaFilter(userInput);
+        System.out.println("[commaFilter] " + commaFilter.filteredInput);
 
         sc.close();
     }

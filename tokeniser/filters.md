@@ -4,24 +4,24 @@ Creating a comprehensive set of filters for a tokenizer involves considering all
 
 ### 1. Punctuation Marks
   #### PeriodFilter (.) 
-    - replace with ``
+    - replace with `` // done
   #### CommaFilter (,)
-    - replace with ``
+    - replace with `` // done
   #### SemicolonFilter (;)
-    - replace with ``
+    - replace with `` // done
   #### ColonFilter (:)
-    - replace with ``
+    - replace with `` // done
   #### BangFilter (!)
-    - to be replaced by ``
+    - to be replaced by `` // done
   #### QuestionMarkFilter (?)
-    - to be replaced by ``
+    - to be replaced by `` // done
 
 ### 2. Quotation Marks
-  #### SingleQuoteFilter (')
+  #### SingleQuoteFilter (') // done
     - replace with ``
-  #### DoubleQuoteFilter (")
+  #### DoubleQuoteFilter (") // done
     - replace with ``
-  #### BacktickFilter (`)
+  #### BacktickFilter (`) // done
     - replace with ``
 
 ### Single Quote Special Cases
@@ -34,16 +34,16 @@ Creating a comprehensive set of filters for a tokenizer involves considering all
   #### SQ
 
 ### 3. Parentheses and Brackets
-  #### ParenthesisFilter ((), )
-  #### SquareBracketFilter ([, ])
-  #### CurlyBraceFilter ({, })
+  #### ParenthesisFilter ((), ) // done
+  #### SquareBracketFilter ([, ]) // done
+  #### CurlyBraceFilter ({, }) // done
 
 ### 4. Dashes and Hyphens
-  #### HyphenFilter (-)
+  #### HyphenFilter (-) // done
 
 ### 5. Mathematical Symbols
-  #### PlusFilter (+)
-  #### MinusFilter (-)
+  #### PlusFilter (+) // done
+  #### MinusFilter (-) // done
   #### AsteriskFilter (*)
   #### SlashFilter (/)
   #### EqualsFilter (=)

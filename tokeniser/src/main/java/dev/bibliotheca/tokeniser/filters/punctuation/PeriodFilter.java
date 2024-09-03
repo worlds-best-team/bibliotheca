@@ -4,8 +4,8 @@ import dev.bibliotheca.tokeniser.filters.InputFilter;
 
 public class PeriodFilter extends InputFilter {
     public PeriodFilter(String input) {
-      super(input);
-			this.process();
+        super(input);
+        this.process();
     }
 
     private boolean isDecimalDot(int index) {
