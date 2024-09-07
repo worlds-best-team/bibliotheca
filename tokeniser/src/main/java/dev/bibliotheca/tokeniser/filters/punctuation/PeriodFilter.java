@@ -3,10 +3,6 @@ package dev.bibliotheca.tokeniser.filters.punctuation;
 import dev.bibliotheca.tokeniser.filters.InputFilter;
 
 public class PeriodFilter extends InputFilter {
-    public PeriodFilter(String input) {
-        super(input);
-        this.process();
-    }
 
     private boolean isDecimalDot(int index) {
         // Check if index + 1 is within bounds before accessing input.charAt(index + 1)
