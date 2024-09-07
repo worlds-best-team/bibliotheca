@@ -10,6 +10,6 @@ public class CommaFilter extends InputFilter {
 
 	@Override
 	public String filter() {
-		return this.input.replace(",", "");
+		return this.input.replace(", ", "");
 	}
 }
