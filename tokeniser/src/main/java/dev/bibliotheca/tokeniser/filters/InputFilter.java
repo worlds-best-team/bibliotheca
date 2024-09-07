@@ -6,7 +6,7 @@ public abstract class InputFilter {
     public boolean isFiltered;
     public boolean isError;
 
-    public InputFilter(String input) throws IllegalArgumentException {
+    public void in(String input) throws IllegalArgumentException {
         if (input.length() == 0)
             throw new IllegalArgumentException("Received input with zero length");
 
@@ -25,4 +25,8 @@ public abstract class InputFilter {
     }
 
     public abstract String filter();
+
+    public String out() {
+        return this.filteredInput;
+    }
 }
