@@ -44,42 +44,43 @@ Creating a comprehensive set of filters for a tokenizer involves considering all
 ### 5. Mathematical Symbols
   #### PlusFilter (+) // done
   #### MinusFilter (-) // done
-  #### AsteriskFilter (*)
-  #### SlashFilter (/)
-  #### EqualsFilter (=)
-  #### PercentageFilter (%)
-  #### AmpersandFilter (&)
-  #### CaretFilter (^)
-  #### TildeFilter (~)
-  #### PipeFilter (|)
-  #### BackslashFilter (\)
-  #### DecimalFilter (.)
-  #### NumercalSeperationFilter (,)
+  #### AsteriskFilter (*) //done
+  #### SlashFilter (/) //done
+  #### EqualsFilter (=) //done
+  #### PercentageFilter (%) //done
+  #### AmpersandFilter (&) //done
+  #### CaretFilter (^) //done
+  #### TildeFilter (~) //done
+  #### PipeFilter (|) //done
+  #### BackslashFilter (\) //done
+  #### DecimalFilter (.)  //done
+  #### NumercalSeperationFilter (,) //done
 
 ### 6. Currency Symbols
-  #### DollarFilter ($)
-  #### PoundFilter (£)
-  #### EuroFilter (€)
-  #### YenFilter (¥)
-  #### RupeeFilter (₹)
+  #### DollarFilter ($) //done
+  #### PoundFilter (£) //done
+  #### EuroFilter (€) //done
+  #### YenFilter (¥) //done
+  #### RupeeFilter (₹) //done
 
 ### 7. At Symbol and Hashtag
-  #### AtSymbolFilter (@)
-  #### HashtagFilter (#)
+  #### AtSymbolFilter (@) //done
+  #### HashtagFilter (#) //done
 
 ### 8. Underscore and Other Connectors
   #### UnderscoreFilter (_)
-  #### PlusFilter (+)
+  #### PlusFilter (+) //done
 
 ### 9. Other Common Symbols
-  #### PipeFilter (|)
-  #### TildeFilter (~)
-  #### CaretFilter (^)
-  #### BackslashFilter (\)
-  #### ForwardSlashFilter (/)
+  #### PipeFilter (|) //done
+  #### TildeFilter (~) //done 
+  #### CaretFilter (^) //done
+  #### BackslashFilter (\) //done
+  #### ForwardSlashFilter (/) //done
 
 ### 10. Miscellaneous
   #### DotDotDotFilter (...)
   #### WhitespaceFilter (`\n`, `\t`)
   #### EllipsisFilter (…)
   #### Every other special character after all above filters to be stripped away (emdash, endash, etc.)
+-
